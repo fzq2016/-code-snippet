@@ -1,7 +1,9 @@
 #code_snippet
     项目意义：xcode中常用的代码片段，本项目目前只用于记录本人常用的代码片段
     项目使用注意：
+    
     备份和恢复code snippet
+    
     1> 自己定义的code snippet的配置文件默认保存在 
     “/Users/用户机器名/Library/Developer/Xcode/UserData/CodeSnippets” 
     这个文件夹下.可以对该文件夹进行备份,也可直接将其拷贝到其他Mac电脑的这个位置就可以复用.
