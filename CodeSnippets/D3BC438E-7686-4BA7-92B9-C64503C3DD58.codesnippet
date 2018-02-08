@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>calculateLabelHeight</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// 动态设置富文本字符串高度
+CGFloat &lt;#UILabel#&gt;Height = [TextManager getSizeForString:&lt;#UILabel#&gt;.text font:&lt;#UILabel#&gt;.font.pointSize andMaxWidth:&lt;#UILabel#&gt;.width isWidth:NO];
+    &lt;#UILabel#&gt;.height = &lt;#UILabel#&gt;Height;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D3BC438E-7686-4BA7-92B9-C64503C3DD58</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>calculateLabelHeight</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>calculateLabelHeight</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

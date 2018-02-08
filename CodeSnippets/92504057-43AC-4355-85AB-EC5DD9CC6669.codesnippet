@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>timing</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    // 记录开始时刻
+    CFTimeInterval start = CFAbsoluteTimeGetCurrent();
+
+    // 需要计时的内容
+    // 示例
+    // NSData *data = [NSData dataWithContentsOfURL:url];
+    // code...
+
+    // 记录结束时刻
+    CFTimeInterval end = CFAbsoluteTimeGetCurrent();
+
+    // 输出花费时长
+    NSLog(@"花费的时间为%f",end - start);//获取的时间都是绝对时间，可以直接相减</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>92504057-43AC-4355-85AB-EC5DD9CC6669</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>timing</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

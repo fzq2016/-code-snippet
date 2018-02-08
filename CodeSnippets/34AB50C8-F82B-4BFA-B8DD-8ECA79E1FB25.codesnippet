@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>view create</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#UIView#&gt; *&lt;#name#&gt; = [[&lt;#UIView#&gt; alloc] init];//创建
+    &lt;#name#&gt;.center = CGPointMake(SCREEN_WIDTH * 0.5, SCREEN_HEIGHT * 0.1);//中点
+    &lt;#name#&gt;.bounds = &lt;#UIView#&gt;.bounds;//尺寸
+    self.&lt;#UIView#&gt; = &lt;#name#&gt;;//设置成员属性
+    [&lt;#UIView#&gt; addSubview:&lt;#name#&gt;];//加入父控件中</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>34AB50C8-F82B-4BFA-B8DD-8ECA79E1FB25</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>uiview create</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
