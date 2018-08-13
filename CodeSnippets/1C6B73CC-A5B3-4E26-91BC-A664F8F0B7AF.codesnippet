@@ -9,8 +9,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#content#&gt; */
-@property (nonatomic, readwrite, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>@property (nonatomic, readwrite, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>1C6B73CC-A5B3-4E26-91BC-A664F8F0B7AF</string>
 	<key>IDECodeSnippetLanguage</key>
