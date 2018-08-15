@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>write to plist</string>
+	<string>WriteToPlist</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#NSDictionary#&gt; writeToFile:@"/Users/fzq/Desktop/&lt;#plistName#&gt;.plist" atomically:YES]; // 调试用</string>
+	<string>[&lt;#NSDictionary#&gt; writeToFile:@"/Users/oyo/Desktop/&lt;#plistName#&gt;.plist" atomically:YES]; // 调试用</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DE6CE1CD-A7CA-465E-B5FD-79B7EA4C1CA0</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>writeToPlist</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>write to plist</string>
+	<string>WriteToPlist</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

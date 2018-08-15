@@ -9,10 +9,7 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**
-    &lt;#注释#&gt;
- */
-@property (nonatomic, readwrite, copy) &lt;#返回值#&gt;(^&lt;#名称#&gt;Block)(&lt;#参数类型#&gt; *&lt;#参数名#&gt;);</string>
+	<string>@property (nonatomic, readwrite, copy) &lt;#返回值#&gt;(^&lt;#名称#&gt;Block)(&lt;#参数类型#&gt; *&lt;#参数名#&gt;);</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0DD76C85-FE96-44B9-AA6F-0EDC9B59A854</string>
 	<key>IDECodeSnippetLanguage</key>

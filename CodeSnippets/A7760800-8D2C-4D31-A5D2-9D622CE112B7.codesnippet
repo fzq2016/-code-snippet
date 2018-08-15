@@ -9,12 +9,10 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/* &lt;#注释#&gt; */
-- (void)&lt;#methodName#&gt;
+	<string>- (void)&lt;#methodName#&gt;
 {
-    // &lt;#注释#&gt; 
     &lt;#code#&gt;
-    /* &lt;#注释#&gt; */
+    
     [self &lt;#methodName#&gt;];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
