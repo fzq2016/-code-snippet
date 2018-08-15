@@ -12,8 +12,6 @@
 	<string>- (void)&lt;#methodName#&gt;
 {
     &lt;#code#&gt;
-    
-    [self &lt;#methodName#&gt;];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>A7760800-8D2C-4D31-A5D2-9D622CE112B7</string>

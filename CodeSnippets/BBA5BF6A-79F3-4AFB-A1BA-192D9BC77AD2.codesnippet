@@ -12,7 +12,6 @@
 	<string>-(void)setup&lt;#methodName#&gt;
 {   
     &lt;#code#&gt;
-    
     [self &lt;#methodName#&gt;];
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
