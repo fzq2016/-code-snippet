@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Selector_pm</string>
+	<string>View life cycle</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Selector</string>
+	<string>#pragma mark - View life cycle</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F6D48646-24AF-4714-9F42-E5CF81FEB7D0</string>
+	<string>A42A76F3-D772-4329-9345-8720C374CF39</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Selector_pm</string>
+	<string>View life cycle</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Selector_pm</string>
+	<string>View life cycle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

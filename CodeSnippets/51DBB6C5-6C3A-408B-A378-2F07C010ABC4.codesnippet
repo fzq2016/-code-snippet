@@ -3,23 +3,63 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Selector_pm</string>
+	<string>ViewTemplete</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Selector</string>
+	<string>@interface &lt;#UIView#&gt;()&lt;ViewProtocol&gt;
+
+
+
+@end
+
+@implementation &lt;#UIView#&gt;
+
+- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        
+        [self setup];
+    }
+    
+    return self;
+}
+
+#pragma mark - UI
+- (void)setup
+{
+    [self createSubviews];
+}
+
+- (void)createSubviews
+{
+    
+    // subview
+    
+    // 设置约束
+    [self setupConstraints];
+}
+
+- (void)setupConstraints
+{
+
+}
+
+#pragma mark - Selector
+
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F6D48646-24AF-4714-9F42-E5CF81FEB7D0</string>
+	<string>51DBB6C5-6C3A-408B-A378-2F07C010ABC4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Selector_pm</string>
+	<string>ViewTemplete</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Selector_pm</string>
+	<string>ViewTemplete</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

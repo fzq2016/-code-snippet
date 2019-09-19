@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Selector_pm</string>
+	<string>ButtonNormalTitle</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Selector</string>
+	<string>[&lt;#button#&gt; setTitle:&lt;#title#&gt; forState:UIControlStateNormal];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F6D48646-24AF-4714-9F42-E5CF81FEB7D0</string>
+	<string>D182A578-B04C-4F07-9F4D-C09132D2ED06</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Selector_pm</string>
+	<string>ButtonNormalTitle</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Selector_pm</string>
+	<string>ButtonNormalTitle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

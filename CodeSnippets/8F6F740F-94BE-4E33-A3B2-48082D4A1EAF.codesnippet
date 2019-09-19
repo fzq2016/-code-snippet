@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Selector_pm</string>
+	<string>MARK_Animation</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Selector</string>
+	<string>// MARK: - Animation</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F6D48646-24AF-4714-9F42-E5CF81FEB7D0</string>
+	<string>8F6F740F-94BE-4E33-A3B2-48082D4A1EAF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Selector_pm</string>
+	<string>MARK_Animation</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Selector_pm</string>
+	<string>MARK_Animation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,23 +3,51 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>Selector_pm</string>
+	<string>ViewControllerTemplete</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Selector</string>
+	<string>@interface &lt;#ViewController#&gt; ()&lt;ViewControllerProtocol&gt;
+
+@end
+
+@implementation &lt;#ViewController#&gt;
+
+#pragma mark - View life cycle
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    [self createSubviews];
+}
+
+#pragma mark - UI
+- (void)createSubviews {
+    
+}
+
+#pragma mark - Data
+- (void)loadData {
+    
+}
+
+#pragma mark - Selector
+- (void)routerEvent:(NSString *)name params:(NSDictionary *)params {
+    
+}
+
+@end</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F6D48646-24AF-4714-9F42-E5CF81FEB7D0</string>
+	<string>22776BB6-9E94-4318-BB74-4CEEBB1B822C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Selector_pm</string>
+	<string>ViewControllerTemplete</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Selector_pm</string>
+	<string>ViewControllerTemplete</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
