@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK_Animation</string>
+	<string>router_pm</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Animation</string>
+	<string>#pragma mark - Router</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8F6F740F-94BE-4E33-A3B2-48082D4A1EAF</string>
+	<string>2D5B8C45-A39A-4BF8-AB91-2FC84DEDC796</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK_Animation</string>
+	<string>router_pm</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MARK_Animation</string>
+	<string>router_pm</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

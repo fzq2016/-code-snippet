@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@interface &lt;#UIView#&gt;()&lt;ViewProtocol&gt;
+	<string>@interface &lt;#UIView#&gt;()
 
 
 
@@ -30,15 +30,13 @@
 - (void)setup
 {
     [self createSubviews];
+    [self setupConstraints];    // 设置约束
 }
 
 - (void)createSubviews
 {
     
-    // subview
     
-    // 设置约束
-    [self setupConstraints];
 }
 
 - (void)setupConstraints

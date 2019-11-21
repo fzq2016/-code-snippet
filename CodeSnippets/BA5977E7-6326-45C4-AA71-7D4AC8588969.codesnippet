@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>MARK_Animation</string>
+	<string>puchVC</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Animation</string>
+	<string>&lt;#vcClassName#&gt; *&lt;#vcName#&gt; = [&lt;#vcClassName#&gt; new];
+    [self.navigationController pushViewController:&lt;#vcName#&gt; animated:YES];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>8F6F740F-94BE-4E33-A3B2-48082D4A1EAF</string>
+	<string>BA5977E7-6326-45C4-AA71-7D4AC8588969</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>MARK_Animation</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>MARK_Animation</string>
+	<string>puchVC</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
