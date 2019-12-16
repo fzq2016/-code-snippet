@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>Cell_Templete</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@interface &lt;#Cell#&gt;()
+
+@property (nonatomic, readwrite, strong) UIImageView *iconImageView;
+@property (nonatomic, readwrite, strong) UILabel *titleLabel;
+
+
+@end
+
+@implementation &lt;#Cell#&gt;
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        
+        [self setup];
+    }
+    return self;
+}
+
+#pragma mark - UI
+- (void)setup
+{
+    [self createSubviews];
+    [self setupConstraints];    // 设置约束
+}
+
+- (void)createSubviews
+{
+    _iconImageView = [UIImageView new];
+    [self.contentView addSubview:_iconImageView];
+    
+    _titleLabel = [UILabel new];
+    _titleLabel.textColor = &lt;#Color#&gt;;
+    _titleLabel.font = &lt;#Font#&gt;;
+    [self.contentView addSubview:_titleLabel];
+}
+
+- (void)setupConstraints
+{
+    [_iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(self.contentView).offset(20);
+        make.width.height.mas_equalTo(40);
+        make.centerY.mas_equalTo(self.contentView);
+    }];
+
+    [_titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(_iconImageView.mas_right).offset(13.5);
+        make.right.mas_lessThanOrEqualTo(self.contentView).offset(-10);
+        make.centerY.mas_equalTo(_iconImageView);
+        make.height.mas_equalTo(21);
+    }];
+}
+
+- (void)layoutSublayersOfLayer:(CALayer *)layer {
+    [super layoutSublayersOfLayer:layer];
+    
+    [_iconImageView addCircleCornerWithCornerRadiu:KAvatarWidth * 0.5];
+}
+
+#pragma mark - Selector
+
+
+#pragma mark - Setter &amp;&amp; Getter
+//- (void)setModel:(TMMApplyModel *)model {
+//    _model = model;
+//
+//    _iconImageView.image = nil;
+//    _titleLabel.text = nil;
+//}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D3343D45-8C0D-4E48-B13E-D4DBA24D566E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Cell_Templete</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Cell_Templete</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

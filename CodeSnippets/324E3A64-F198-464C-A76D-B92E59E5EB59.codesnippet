@@ -3,25 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pushVC</string>
+	<string>CurrentThreadLog</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
-		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#vcClassName#&gt; *&lt;#vcName#&gt; = [&lt;#vcClassName#&gt; new];
-    [self.navigationController pushViewController:&lt;#vcName#&gt; animated:YES];</string>
+	<string>NSLog(@"[NSThread currentThread]=%@", [NSThread currentThread]);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>BA5977E7-6326-45C4-AA71-7D4AC8588969</string>
+	<string>324E3A64-F198-464C-A76D-B92E59E5EB59</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>CurrentThreadLog</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>pushVC</string>
+	<string>CurrentThreadLog</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
